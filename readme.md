@@ -25,3 +25,30 @@
         - flex-direction reverse
         - flex-direction column
         - flex-direction column-reverse
+
+## Flex-wrap
+
+     adalah sebuah property CSS yang digunakan untuk mengatur bagaimana item flex (flex items) ditata dalam kontainer fleksibel (flex container) jika melebihi ukuran kontainer tersebut. Dengan menggunakan flex-wrap, Anda dapat menentukan apakah item flex akan dipindahkan ke baris atau kolom berikutnya jika kontainer fleksibel tidak cukup lebar atau tinggi untuk menampung semua item flex.
+
+    Nilai yang dapat digunakan pada properti flex-wrap adalah:
+
+    1.  nowrap (default): Item flex tidak akan dipindahkan ke baris atau kolom berikutnya.
+        Item flex akan tetap ditampilkan dalam satu baris atau kolom, meskipun lebar atau tinggi
+        kontainer fleksibel tidak mencukupi.
+    2.  wrap: Item flex akan dipindahkan ke baris atau kolom berikutnya jika lebar atau tinggi kontainer
+        fleksibel tidak mencukupi untuk menampung semua item flex. Baris atau kolom yang baru akan
+        dimulai di bawah atau di samping baris atau kolom sebelumnya.
+
+    3.  wrap-reverse: Item flex akan dipindahkan ke baris atau kolom berikutnya jika lebar atau tinggi
+        kontainer fleksibel tidak mencukupi untuk menampung semua item flex. Baris atau kolom yang baru
+        akan dimulai di atas atau di sebelah kiri baris atau kolom sebelumnya.
+
+    Todo :
+    1. flex-wrap/index.html
+        - Tanpa Flex Wrap
+        - Dengan Flex Wrap
+        - Dengan Flex Wrap reverse
+    2. flex-wrap/style.css
+        - Tanpa Flex Wrap
+        - Dengan Flex Wrap
+        - Dengan Flex Wrap reverse

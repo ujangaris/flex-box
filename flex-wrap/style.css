@@ -1,0 +1,55 @@
+/* Tanpa Flex Wrap */
+.container {
+  width: 600px;
+  border: 5px solid #333;
+  margin: 30px auto;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+}
+/* Akhir Tanpa Flex Wrap */
+
+/*  Dengan Flex Wrap */
+.container div {
+  background-color: blue;
+  width: 120px;
+  height: 120px;
+  margin: 5px;
+}
+.container-wrap {
+  width: 600px;
+  border: 5px solid #333;
+  margin: 30px auto;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-wrap div {
+  height: 120px;
+  width: 120px;
+  background-color: aqua;
+  margin: 5px;
+}
+/* Akhir Dengan Flex Wrap */
+
+/*  Dengan Flex Wrap Reverse*/
+
+.container-wrap-reverse {
+  width: 600px;
+  border: 5px solid #333;
+  padding: 5px;
+  margin: 30px auto;
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap-reverse;
+}
+.container-wrap-reverse div {
+  height: 120px;
+  width: 120px;
+  background-color: saddlebrown;
+  margin: 5px;
+}
+
+/* Akhir Dengan Flex Wrap Reverse*/
