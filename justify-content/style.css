@@ -1,0 +1,92 @@
+/* justify content flex start */
+.container-start {
+  width: 600px;
+  border: 5px solid #333;
+  margin: 30px auto;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+}
+.container-start div {
+  width: 120px;
+  height: 120px;
+  margin: 5px;
+  background-color: salmon;
+}
+/* akhir justify content flex start */
+
+/*  justify content center */
+.container-center {
+  width: 600px;
+  border: 5px solid #333;
+  margin: 30px auto;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+.container-center div {
+  width: 120px;
+  height: 120px;
+  background-color: aqua;
+  margin: 5px;
+}
+/* akhir justify content center */
+
+/*  justify space between */
+.container-space-between {
+  width: 600px;
+  border: 5px solid #333;
+  margin: 30px auto;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-space-between div {
+  height: 120px;
+  width: 120px;
+  background-color: blueviolet;
+  margin: 5px;
+}
+/* akhir justify space between */
+
+/*  justify space around */
+
+.container-space-around {
+  width: 600px;
+  border: 5px solid #333;
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-space-around div {
+  height: 120px;
+  width: 120px;
+  background-color: chartreuse;
+  margin: 5px;
+}
+/* akhir justify space around */
+
+/*  justify flex end */
+.container-flex-end {
+  width: 600px;
+  border: 5px solid #333;
+  margin: 30px auto;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+}
+.container-flex-end div {
+  height: 120px;
+  width: 120px;
+  background-color: cadetblue;
+  margin: 5px;
+}
+/* akhir justify flex end */

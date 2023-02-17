@@ -52,3 +52,31 @@
         - Tanpa Flex Wrap
         - Dengan Flex Wrap
         - Dengan Flex Wrap reverse
+
+## Justify Content
+
+    adalah salah satu properti dalam CSS yang digunakan untuk mengatur posisi konten
+    dalam sebuah kontainer secara horizontal. Properti ini biasanya digunakan untuk mengatur letak
+    dan jarak antar konten dalam sebuah flex container.
+
+    Beberapa nilai yang dapat digunakan untuk properti justify-content antara lain:
+
+    1.  flex-start: Konten diletakkan di awal kontainer (sebelah kiri).
+    2.  flex-end: Konten diletakkan di akhir kontainer (sebelah kanan).
+    3.  center: Konten diletakkan di tengah-tengah kontainer.
+    4.  space-between: Konten diletakkan dengan jarak sama antara satu sama lain.
+    6.  space-around: Konten diletakkan dengan jarak sama di sekelilingnya.
+
+    Todo :
+    1. justify-content/index.html
+        - Justify Content Start
+        - Justify Content Center
+        - Justify Content Space Between
+        - Justify Content Space Around
+        - Justify Content Flex End
+    2. justify-content/style.css
+        - Justify Content Start
+        - Justify Content Center
+        - Justify Content Space Between
+        - Justify Content Space Around
+        - Justify Content Flex End
