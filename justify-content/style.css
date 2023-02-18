@@ -58,7 +58,7 @@
 .container-space-around {
   width: 600px;
   border: 5px solid #333;
-  margin: 5px;
+  margin: 30px auto;
   padding: 5px;
   box-sizing: border-box;
   display: flex;

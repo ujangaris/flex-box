@@ -80,3 +80,35 @@
         - Justify Content Space Between
         - Justify Content Space Around
         - Justify Content Flex End
+
+## Align Items
+
+    adalah salah satu properti dalam CSS yang digunakan untuk mengatur posisi konten dalam sebuah kontainer secara vertikal.
+    Properti ini biasanya digunakan untuk mengatur letak dan jarak antar konten dalam sebuah flex container.
+
+    Beberapa nilai yang dapat digunakan untuk properti align-items antara lain:
+
+    1.  flex-start: Konten diletakkan di atas kontainer.
+    2.  flex-end: Konten diletakkan di bawah kontainer.
+    3.  center: Konten diletakkan di tengah-tengah kontainer.
+    4.  baseline: Konten diletakkan pada garis dasar teks dalam kontainer.
+    5.  stretch: Konten ditarik untuk mengisi seluruh ruang di dalam kontainer.
+
+    Todo :
+    1. align-items/index.html
+        - Align Items Flex Start
+        - Align Items Flex End
+        - Align Items Center
+        - Align Items Baseline
+            baseline akan berdungsi jika elemen didalamnnya ada ukuran
+            contoh class satu & class tiga
+        - Align Items Stretch
+            jika heightnya dimatiin akan panjang kebawah
+    2. align-items/style.css
+        - Align Items Flex Start
+        - Align Items Flex End
+        - Align Items Center
+        - Align Items Baseline
+            baseline akan berdungsi jika elemen didalamnnya ada ukuran
+        - Align Items Stretch
+            jika heightnya dimatiin akan panjang kebawah
